@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #8bbbdd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#quiz-container {
+    background: beige;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#quiz-header h1 {
+    margin: 0;
+}
+
+#timer {
+    font-size: 18px;
+    color: #ff3333;
+}
+
+#quiz-body {
+    margin-top: 20px;
+}
+
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.option:hover {
+    background:#9bbbdd;
+}
+.option:active{
+    background: rgb(62, 235, 235);
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#navigation button {
+    padding: 10px 10px;
+    background: #19b5e1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navigation button:hover {
+    background:#ff3333;
+}
+
+#quiz-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#score {
+    font-size: 30px;
+    color:brown;
+}
